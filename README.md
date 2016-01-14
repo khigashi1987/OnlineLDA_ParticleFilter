@@ -9,11 +9,10 @@ The Mersenne twister are used for a pseudorandom number generator. C codes are t
 
 usage: ldapf [-P particles] [-E effective sample size] [-R rejuvenation steps] [-A alpha] [-B beta]  test model
 
--P (int) The number of particles.
--E (int) Effective sample size threshold. If ESS falls below this threshold, "Rejuvenation" steps will be executed.
--R (int) The number of "Rejuvenation" sampling. 
--A (float) Alpha parameter of pre-learned LDA model.
--B (float) Beta parameter of pre-learned LDA model.
-test (file) New documents to be predicted.
-model (model prefix) Pre-learned model.
-
+-P (int) The number of particles.  
+-E (int) Effective sample size threshold. If ESS falls below this threshold, "Rejuvenation" steps will be executed.  
+-R (int) The number of "Rejuvenation" sampling.   
+-A (float) Alpha parameter of pre-learned LDA model.  
+-B (float) Beta parameter of pre-learned LDA model.  
+test (file) New documents to be predicted.  
+model (model prefix) Pre-learned model.  
